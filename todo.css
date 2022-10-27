@@ -1,0 +1,63 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#input_area{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#todo_text {
+    width: 50%;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+#add_todo_action{
+    padding: 8px 12px;
+    margin-left: 8px;
+    border-radius: 6px;
+    border: 1px solid #3706cd;
+    background-color: #3706cd;
+    color: white;
+    cursor: pointer;
+}
+#tbody{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.todoDiv{
+    width: 100%;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid lightcoral;
+    border-radius: 6px;
+    margin: 2px 0px;
+}
+.serialNumber{
+margin: 0;
+}
+h2{
+    margin: 0;
+}
+.actionDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.actionDiv > button{
+    margin-left: 4px    ;
+}
